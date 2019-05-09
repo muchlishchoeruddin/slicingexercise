@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan Slicing Porto</title>
+<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dist/fontawesome-free-5.8.1-web/css/all.css">
+	<link rel="stylesheet" type="text/css" href="dist/simple-line-icons-master/css/simple-line-icons.css">
+<!-- End Fonts -->
+<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/responsive.css">
+<!-- End CSS -->
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<a href="navbar-brand" href="#"><img src="assets/img/logo-default-slim-dark.png" style="width:82px;"></a>
+		<div class="icon-n-collapsed">
+			<div class="d-inline-block text-center circle-icon">
+				<span class="align-middle"><i class="fab fa-facebook-f"></i></span>
+			</div>
+			<div class="d-inline-block text-center circle-icon">
+				<span class="align-middle"><i class="fab fa-twitter"></i></span>
+			</div>
+			<div class="d-inline-block text-center circle-icon">
+				<span class="align-middle"><i class="fab fa-linkedin-in"></i></span>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent">
+				<i class="fas fa-bars"></i>
+			</button>
+		</div>
+		<div class="navbar-collapse collapse" id="navbarSupportContent">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>HOME</span></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">ACTION</a>
+						<a class="dropdown-item" href="#">ANOTHER ACTION</a>
+						<a class="dropdown-item" href="#">SOMETHING ELSE THERE</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>ELEMENTS</span></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">ACTION</a>
+						<a class="dropdown-item" href="#">ANOTHER ACTION</a>
+						<a class="dropdown-item" href="#">SOMETHING ELSE THERE</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>FEATURES</span></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">ACTION</a>
+						<a class="dropdown-item" href="#">ANOTHER ACTION</a>
+						<a class="dropdown-item" href="#">SOMETHING ELSE THERE</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>PAGES</span></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">ACTION</a>
+						<a class="dropdown-item" href="#">ANOTHER ACTION</a>
+						<a class="dropdown-item" href="#">SOMETHING ELSE THERE</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>PORTFOLIO</span></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">ACTION</a>
+						<a class="dropdown-item" href="#">ANOTHER ACTION</a>
+						<a class="dropdown-item" href="#">SOMETHING ELSE THERE</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>BLOG</span></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">ACTION</a>
+						<a class="dropdown-item" href="#">ANOTHER ACTION</a>
+						<a class="dropdown-item" href="#">SOMETHING ELSE THERE</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>SHOP</span></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">ACTION</a>
+						<a class="dropdown-item" href="#">ANOTHER ACTION</a>
+						<a class="dropdown-item" href="#">SOMETHING ELSE THERE</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="icon-collapsed">
+			<div class="d-inline-block text-center circle-icon">
+				<span class="align-middle"><i class="fab fa-facebook-f"></i></span>
+			</div>
+			<div class="d-inline-block text-center circle-icon">
+				<span class="align-middle"><i class="fab fa-twitter"></i></span>
+			</div>
+			<div class="d-inline-block text-center circle-icon">
+				<span class="align-middle"><i class="fab fa-linkedin-in"></i></span>
+			</div>
+		</div>
+	</nav>
+	<section class="header-section">
+		<div class="header-covered">
+			<div class="img-header"></div>
+			<div class="cover-header"></div>
+			<div class="title-header position-absolute text-center">
+				<p>Trusted by over <b>30,000</b> satisfied users</p>
+				<h1>Welcome to Porto</h1><br>
+				<a href="#" class="btn btn-dark">GET STARTED NOW</a>
+			</div>
+			<div class="lineitalic"></div>
+		</div>
+		<div class="header-services">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-4 text-center my-4">
+						<img src="assets/img/seo-grey.png" style="width:30%;">
+						<br>
+						<br>
+						<h5><b>SEO Optimization</b></h5>
+						<small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</small>
+					</div>
+					<div class="col-md-4 text-center  my-4">
+						<img src="assets/img/marketing-grey.png" style="width:30%;">
+						<br>
+						<br>
+						<h5><b>SEO Optimization</b></h5>
+						<small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</small>
+					</div>
+					<div class="col-md-4 text-center  my-4">
+						<img src="assets/img/support-grey.png" style="width:30%;">
+						<br>
+						<br>
+						<h5><b>SEO Optimization</b></h5>
+						<small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr class="solid my-5"></hr>
+	<section class="case-of-success">
+		<div class="container">
+			<div class="row align-items-center text-center text-md-left pt-4 pb-5 my-5">
+				<div class="col-lg-7 mb-5 mb-lg-0">
+					<h2 class="font-weight-bold text-6 line-height-1  ls-0 mb-4">Case of Success</h2>
+					<p class="text-4">There are so many styles you can combine that is possible to create almost any kind of layout based on Porto Template.</p>
+					<p class="mb-4 pr-md-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+					<a href="#" class="btn btn-dark font-weight-semibold rounded-0 text-4 btn-px-5 btn-py-2">LEARN MORE</a>
+				</div>
+				<div class="col-lg-5 text-center">
+					<div class="row justify-content-center">
+						<div class="col-9 col-md-4 px-0 mb-4 mb-md-0">
+							<img class="img-fluid hover-effect-3" src="assets/img/jquery.png" alt>
+						</div>
+						<div class="col-9 col-md-4 px-0 mb-4 mb-md-0">
+							<img class="img-fluid hover-effect-3" src="assets/img/envato.png" alt>
+						</div>
+						<div class="col-9 col-md-4 px-0 mb-4 mb-md-0">
+							<img class="img-fluid hover-effect-3" src="assets/img/less.png" alt>
+						</div>
+					</div>
+					<div class="row justify-content-center py-md-3 my-md-0">
+						<div class="col-9 col-md-4 px-0 mb-4 mb-md-0">
+							<img class="img-fluid hover-effect-3" src="assets/img/sass.png" alt>
+						</div>
+						<div class="col-9 col-md-4 px-0 mb-4 mb-md-0">
+							<img class="img-fluid hover-effect-3" src="assets/img/spotify.png" alt>
+						</div>
+						<div class="col-9 col-md-4 px-0 mb-4 mb-md-0">
+							<img class="img-fluid hover-effect-3" src="assets/img/google.png" alt>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-9 col-md-4 px-0 mb-4 mb-md-0">
+							<img class="img-fluid hover-effect-3" src="assets/img/wordpress.png" alt>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="parallaxgradient overlay pb-5">
+			<div class="lineitalic"></div>
+			<!-- <div class="cos-img"></div> -->
+			<!-- <div class="cos-img-cover"></div> -->
+			<div class="cos-body">
+				<div class="container my-5 py-5">
+					<div class="row pb-4 mt-4 pt-5">
+						<div class="col-lg-4">
+							<div class="media">
+								<i class="icon-user-following icons text-primary mt-1"></i>
+								<div class="media-body ml-3">
+									<h4 class="mb-2">Customer Support</h4>
+									<p class="mb-4 text-default">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="media">
+								<i class="icon-screen-tablet icons text-primary mt-1"></i>
+								<div class="media-body ml-3">
+									<h4 class="mb-2">Mobile Apps</h4>
+									<p class="mb-4 text-default">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="media">
+								<i class="icon-layers icons text-primary mt-1"></i>
+								<div class="media-body ml-3">
+									<h4 class="mb-2">Sliders</h4>
+									<p class="mb-4 text-default">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row pb-4">
+						<div class="col-lg-4">
+							<div class="media">
+								<i class="icon-magnifier icons text-primary mt-1"></i>
+								<div class="media-body ml-3">
+									<h4 class="mb-2">SEO Optimization</h4>
+									<p class="mb-4 text-default">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="media">
+								<i class="icon-calculator icons text-primary mt-1"></i>
+								<div class="media-body ml-3">
+									<h4 class="mb-2">HTML 5</h4>
+									<p class="mb-4 text-default">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="media">
+								<i class="icon-star icons text-primary mt-1"></i>
+								<div class="media-body ml-3">
+									<h4 class="mb-2">Icon</h4>
+									<p class="mb-4 text-default">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row pb-4">
+						<div class="col-lg-4">
+							<div class="media">
+								<i class="icon-drop icons text-primary mt-1"></i>
+								<div class="media-body ml-3">
+									<h4 class="mb-2">Color</h4>
+									<p class="mb-4 text-default">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="media">
+								<i class="icon-mouse icons text-primary mt-1"></i>
+								<div class="media-body ml-3">
+									<h4 class="mb-2">Buttons</h4>
+									<p class="mb-4 text-default">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="media">
+								<i class="icon-screen-desktop icons text-primary mt-1"></i>
+								<div class="media-body ml-3">
+									<h4 class="mb-2">Brand Solutions</h4>
+									<p class="mb-4 text-default">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="lineitalic2"></div>
+		</div>
+	</section>
+	<section class="us">
+		
+	</section>
+<!-- Script -->
+	<script type="text/javascript" src="dist/js/jquery.js"></script>
+	<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="dist/js/script.js"></script>
+<!-- End Script -->
+</body>
+</html>
