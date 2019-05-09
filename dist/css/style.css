@@ -379,3 +379,13 @@ html,body{
 .owl.prev{
 	margin-left:-200px;
 }
+.footer-page>.footer-body>.icon>.circle-icon{
+	color: black;
+	transition: all .2s ease;
+}
+.footer-page>.footer-body>.icon>.circle-icon:hover{
+	color:white !important;
+}
+.copyright-text{
+	color:grey;
+}
