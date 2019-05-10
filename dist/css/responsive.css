@@ -1,0 +1,8 @@
+@media(max-width: 992px){
+	.icon-n-collapsed{
+		display: block;
+	}
+	.icon-collapsed{
+		display: none;
+	}
+}
