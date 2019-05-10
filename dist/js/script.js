@@ -3,7 +3,10 @@
 // }else{
 // 	$('.navbar').addClass('affix');
 // }
+<<<<<<< HEAD
 new WOW().init();
+=======
+>>>>>>> bcbc315a622e602b9cde0882d16d8ca1aaf87803
 if ($(window).scrollTop()>100) {
 	$('.navbar').removeClass('affix');
 	// alert('lol');
